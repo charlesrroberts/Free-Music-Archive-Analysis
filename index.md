@@ -4,7 +4,7 @@
 
 ### Looking at the Popular Artists, Albums and Songs on FMA
 
-<img src="https://64.media.tumblr.com/b23929568f313695fd868b441db5db0b/dec7ea24a71be424-d8/s500x750/c54fe891403b51b4266b369911969c0709e64279.jpg" />
+<img src="https://unsplash.com/photos/fCEJGBzAkrUg" />
   
 Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
 
