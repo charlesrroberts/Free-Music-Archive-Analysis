@@ -109,7 +109,7 @@ The FMA categorizes album type into five categories:
 -	Single Tracks
 -	Contest
 
-![Image](https://drive.google.com/uc?id=1kZzH1gRsd46z4Mh9OhuqSEOkgO46dg8l)
+![https://freemusicarchive.org/music/Podington_Bear](https://drive.google.com/uc?id=1kZzH1gRsd46z4Mh9OhuqSEOkgO46dg8l)
 
 The above bar chart shows that the category type Album has the most album listens which is a good indicator that this is a popular category.
 
