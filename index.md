@@ -95,7 +95,7 @@ The above bar chart shows that the category type Album has the most album listen
 
 I want to know what is the most popular album on FMA. For my analysis I measured each albums popularity on the FMA by comparing the album listens count.
 
-Bar - album listens w/ distinct count of artist on album
+<script type='text/javascript' src='https://prod-ca-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 980px; height: 959px;'><object class='tableauViz' width='980' height='959' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-ca-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;charlesroberts' /><param name='name' value='Book1&#47;Album-Listens' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
 
 The above bar chart shows the albums with the largest amount of listens. The chart shows us that the album called Entries has the largest amount of album listens, by far, with a count 495,429,777. microSong Entries album is the next most listened to album with 100,934,450 listens followed by Bonus Beat Blast 2011 with 58,985,533 listens. 
 
