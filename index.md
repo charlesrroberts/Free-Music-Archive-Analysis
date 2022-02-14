@@ -55,11 +55,11 @@ My initial question when looking at the data is who uses the FMA? Initially, I w
 
                         <object class='tableauViz' width='100%' height='100%' style='display:none;'>
 
-                            <param name='host_url' value='https://prod-ca-a.online.tableau.com/javascripts/api/viz_v1.js' />
+                            <param name='host_url' value='https%3A%2F%2Fprod-ca-a.online.tableau.com%2F' />
 
                             <param name='embed_code_version' value='3' />
 
-                            <param name='site_root' value='' />
+                            <param name='site_root' value='&#47;t&#47;charlesroberts' />
 
                             <param name='name' value='MinimumWageSized&#47;Dashboard2' />
 
