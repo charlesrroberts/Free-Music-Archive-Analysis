@@ -1,33 +1,5 @@
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
- 
-
- 
-
-                    <div class='tableauPlaceholder'>
-
-                        <object class='tableauViz' width='100%' height='100%' style='display:none;'>
-
-                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-
-                            <param name='embed_code_version' value='3' />
-
-                            <param name='site_root' value='' />
-
-                            <param name='name' value='MinimumWageSized&#47;Dashboard2' />
-
-                            <param name='tabs' value='no' />
-
-                            <param name='toolbar' value='yes' />
-
-                            <param name='showAppBanner' value='false' />
-
-                            <param name='filter' value='iframeSizedToWindow=true' />
-
-                        </object>
-
-                    </div>
-                    # Free Music Archive: An Analysis of Popular Artists, Albums and Songs
-
+# Free Music Archive: An Analysis of Popular Artists, Albums and Songs
+  
 Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
 
 In this data story I plan to explore the currently available FMA data to answer the following questions:
@@ -202,13 +174,31 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+ 
 
-### Jekyll Themes
+<div class='tableauPlaceholder'>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/charlesrroberts/Free-Music-Archive-Analysis-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+                        <object class='tableauViz' width='100%' height='100%' style='display:none;'>
 
-### Support or Contact
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+                            <param name='embed_code_version' value='3' />
+
+                            <param name='site_root' value='' />
+
+                            <param name='name' value='MinimumWageSized&#47;Dashboard2' />
+
+                            <param name='tabs' value='no' />
+
+                            <param name='toolbar' value='yes' />
+
+                            <param name='showAppBanner' value='false' />
+
+                            <param name='filter' value='iframeSizedToWindow=true' />
+
+                        </object>
+
+                    </div>
+                  
 
