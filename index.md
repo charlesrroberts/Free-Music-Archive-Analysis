@@ -2,7 +2,7 @@
     color: #76b7b2;
 }</style>
 
-### Looking at the Popular Artists, Albums and Songs on FMA
+### Looking at Popular Artists, Albums and Songs on FMA
 
 <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80" />
   
@@ -18,7 +18,7 @@ In this data story I plan to explore the currently available FMA data to answer 
 6.	Where are the popular Free Music Archive artists located?
 
 
-Metadata
+## Metadata
 
 The FMA provides 917 GiB and 343 days of Creative Commons-licensed audio from 106,574 tracks from 16,341 artists and 14,854 albums, arranged in a hierarchical taxonomy of 161 genres. The dataset was published in 2017 and contains data from 2009 to 2017.  
 
@@ -43,15 +43,14 @@ tracks.csv
 -	active_year_begin
 
 
-Cleaning
+## Cleaning
+
 The data I am interested in analyzing was organized well so there wasn’t much of cleaning to be done. I utilized Tableau Prep to clean up the column headers and remove unwanted columns. I created a custom calculation in Tableau Prep to calculate how long each individual artist has been active on the website. I used the artist_date_created column which provides a date for when each artist became active on the website. Since the data table includes data up to and including 2017 I decided to create a DATEDIFF calculation between artist_date_created and 2018-01-01.
 
 Artist Duration Calculation Field
 -	DATEDIFF('day',[artist date_created], #2018-01-01#)
 
-
-
-What genres of music are available on the Free Music Archive?
+## What genres of music are available on the Free Music Archive?
 
 My initial question when looking at the data is who uses the FMA? Initially, I wanted to find out what are the most popular genres on the FMA but I found that many artists categorize themselves by multiple genres for their music. It was difficult to analyze top genre based on the artist “listens” or “interest” data because of the overlapping and multiple genres.
 
@@ -60,11 +59,11 @@ My initial question when looking at the data is who uses the FMA? Initially, I w
 I analyzed genre title and the number of tracks for each genre which shows that Experimental, Electronic and Rock genres have the highest number of tracks on the FMA compared to the other the music genres. These results suggest that creators of Experimental music are predominant users of the FMA.   
 
 
-Who are the most popular artists on the Free Music Archive?
+## Who are the most popular artists on the Free Music Archive?
 
 I want to know who is the most popular artist on FMA but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured an artist’s popularity on the FMA by listens and interest counts of their songs.
 
-Bar - artist/listens
+<script type='text/javascript' src='https://prod-ca-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1602px; height: 914px;'><object class='tableauViz' width='1602' height='914' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-ca-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;charlesroberts' /><param name='name' value='Book1&#47;Artist-Listens' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
 
 The above bar chart shows the artists with the largest amount of track listens. The chart shows us that Podington Bear has the largest amount of track listens with a count 7,287,253.
 
@@ -81,7 +80,7 @@ The above chart shows the number of days the most popular artists have been acti
 Podington Bear has been on the site the longest, at 2814 days, which may be a good indicator why they have the most listens and interest. Kevin Macleod, Chris Zabriskie and Jahzzar have been on the site less time but have similar most listens and interest counts to Podington Bear. Kai Engel has only been on the site for 1600 days at this point but still ranks quite high for listens and interest so they should be noted as a quite popular. 
 
 
-What is the most popular album on the Free Music Archive?
+## What is the most popular album on the Free Music Archive?
 
 The FMA categorizes album type into five categories:
 -	Album
@@ -109,7 +108,7 @@ Stacked - album listen by artist
 The above bar chart shows that Podington Bear is ranked the highest because they have 40 albums with 6,356,117 album track listens. If we’re looking at individual albums, we can clearly see that the Nameless: Hacker RPG Soundtrack by BoxCat Games is a very popular album with 1,533,769 listens; it should be noted that the album is a soundtrack by independent video game developer BoxCat Games, but it is impressive to that many listens. Chris Zabriskie has the most popular album, by an individual artist, called Cylinders with 1,363,291 listens.
 
 
-What is the most popular song on the Free Music Archive?
+## What is the most popular song on the Free Music Archive?
 
 I want to know what is the most popular song on the Free Music Archive. For my analysis I measured a song’s popularity on the FMA by comparing track listens and interest counts.
 
@@ -124,7 +123,7 @@ The above bar dot chart shows the songs with the largest amount of interest. The
 Overall, the most popular song on the FMA by an individual artist is Night Owl by Broke For Free with the largest number of listens and interest.
 
 
-Is there a correlation between listens and interest?
+## Is there a correlation between listens and interest?
 
 I want to know if there is a correlation between listens and interest on the Free Music Archive. For my analysis I measured the correlation between FMA artist’s track listens and track interest counts. It should be noted that for this analysis normalizing the data didn’t alter the results.
 
@@ -143,7 +142,7 @@ Scatter – Kevin Macleod listens vs interest
 The above scatter plots shows the correlation between track listens and track interest for Podington Bear, Chris Zabriskie, Jahzzar and Kevin Macleod. It is interesting to see that there is a strong correlation between listens and interest for Chris Zabriskie songs with an even distribution along the trend line.
  
 
-Where are the most popular FMA artists located around the world?
+## Where are the most popular FMA artists located around the world?
 
 I want to know where the most popular artists on the Free Music Archive are located around the world. For my analysis I used latitude and longitude coordinates to position all the artists on a map. I used a size label to represent track listens and differentiate the popular artists. 
 
