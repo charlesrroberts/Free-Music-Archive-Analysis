@@ -35,13 +35,20 @@ tracks.csv
     <li>track title</li>
     <li>#listens</li> 
     <li>interest</li>
-    <li>album title</li>
-    <li>album type</li>
+   
 </ul>
 </div>
 <div style='float: left'>
 <ul>
+     <li>album title</li>
+    <li>album type</li>
     <li>album #listens</li> 
+    <li>album #listens</li> 
+</ul>
+</div>
+<div style='float: left'>
+<ul>
+    
     <li>location</li> 
     <li>longitude</li> 
     <li>latitude</li>
