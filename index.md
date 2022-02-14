@@ -29,18 +29,23 @@ genre.csv
 -	#tracks 
 
 tracks.csv
+<div style='float: left'>
 -	artist name 
 -	track title
 -	#listens 
 -	interest
 -	album title
--	album type 
+-	album type
+</div>
+<div style='float: left'>
 -	album #listens 
 -	location 
 -	longitude 
 -	latitude
 -	genres_top
 -	active_year_begin
+</div>
+<div style='clear:both'></div>
 
 
 ## Cleaning
