@@ -30,20 +30,24 @@ genre.csv
 
 tracks.csv
 <div style='float: left'>
--	artist name 
--	track title
--	#listens 
--	interest
--	album title
--	album type
+<ul>
+    <li>artist name 
+<li>track title</li>
+<li>#listens</li> 
+<li>interest</li>
+<li>album title</li>
+<li>album type</li>
+    </ul>
 </div>
 <div style='float: left'>
--	album #listens 
--	location 
--	longitude 
--	latitude
--	genres_top
--	active_year_begin
+<ul>
+    <li>album #listens</li> 
+<li>location</li> 
+<li>longitude</li> 
+<li>latitude</li>
+<li>genres_top</li>
+<li>active_year_begin</li>
+    </ul>
 </div>
 <div style='clear:both'></div>
 
