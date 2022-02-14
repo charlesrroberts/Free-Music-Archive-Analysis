@@ -32,22 +32,22 @@ tracks.csv
 <div style='float:left'>
 <ul>
     <li>artist name</li> 
-<li>track title</li>
-<li>#listens</li> 
-<li>interest</li>
-<li>album title</li>
-<li>album type</li>
-    </ul>
+    <li>track title</li>
+    <li>#listens</li> 
+    <li>interest</li>
+    <li>album title</li>
+    <li>album type</li>
+</ul>
 </div>
 <div style='float: left'>
 <ul>
     <li>album #listens</li> 
-<li>location</li> 
-<li>longitude</li> 
-<li>latitude</li>
-<li>genres_top</li>
-<li>active_year_begin</li>
-    </ul>
+    <li>location</li> 
+    <li>longitude</li> 
+    <li>latitude</li>
+    <li>genres_top</li>
+    <li>active_year_begin</li>
+</ul>
 </div>
 <div style='clear:both'></div>
 
