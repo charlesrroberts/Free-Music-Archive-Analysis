@@ -1,4 +1,31 @@
-# Free Music Archive: An Analysis of Popular Artists, Albums and Songs
+<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
+ 
+
+<div class='tableauPlaceholder'>
+
+                        <object class='tableauViz' width='100%' height='100%' style='display:none;'>
+
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+
+                            <param name='embed_code_version' value='3' />
+
+                            <param name='site_root' value='' />
+
+                            <param name='name' value='MinimumWageSized&#47;Dashboard2' />
+
+                            <param name='tabs' value='no' />
+
+                            <param name='toolbar' value='yes' />
+
+                            <param name='showAppBanner' value='false' />
+
+                            <param name='filter' value='iframeSizedToWindow=true' />
+
+                        </object>
+
+                    </div>
+                    
+                    # Free Music Archive: An Analysis of Popular Artists, Albums and Songs
   
 Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
 
@@ -174,31 +201,6 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
- 
 
-<div class='tableauPlaceholder'>
-
-                        <object class='tableauViz' width='100%' height='100%' style='display:none;'>
-
-                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-
-                            <param name='embed_code_version' value='3' />
-
-                            <param name='site_root' value='' />
-
-                            <param name='name' value='MinimumWageSized&#47;Dashboard2' />
-
-                            <param name='tabs' value='no' />
-
-                            <param name='toolbar' value='yes' />
-
-                            <param name='showAppBanner' value='false' />
-
-                            <param name='filter' value='iframeSizedToWindow=true' />
-
-                        </object>
-
-                    </div>
                   
 
