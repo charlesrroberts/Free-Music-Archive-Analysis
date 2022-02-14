@@ -31,7 +31,7 @@ genre.csv
 tracks.csv
 <div style='float:left;'>
 <ul>
-    <li>artist name 
+    <li>artist name</li> 
 <li>track title</li>
 <li>#listens</li> 
 <li>interest</li>
