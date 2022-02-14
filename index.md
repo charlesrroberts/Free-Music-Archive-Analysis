@@ -29,7 +29,7 @@ genre.csv
 -	#tracks 
 
 tracks.csv
-<div style='float:left;'>
+<div style='float:left'>
 <ul>
     <li>artist name</li> 
 <li>track title</li>
@@ -39,7 +39,7 @@ tracks.csv
 <li>album type</li>
     </ul>
 </div>
-<div style='float: left;'>
+<div style='float: left'>
 <ul>
     <li>album #listens</li> 
 <li>location</li> 
@@ -49,7 +49,7 @@ tracks.csv
 <li>active_year_begin</li>
     </ul>
 </div>
-<div style='clear:both;'></div>
+<div style='clear:both'></div>
 
 
 ## Cleaning
