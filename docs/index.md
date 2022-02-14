@@ -1,54 +1,16 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/charlesrroberts/Free-Music-Archive-Analysis-/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/charlesrroberts/Free-Music-Archive-Analysis-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-Free Music Archive: An Analysis of Popular Artists, Albums and Songs
+#Free Music Archive: An Analysis of Popular Artists, Albums and Songs
 
 Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
 
 
 In this data story I plan to explore the currently available FMA data to answer the following questions:
 
-•	What genre of artist post their music to the Free Music Archive? 
-•	Who are the popular artists on the Free Music Archive?
-•	What are the popular albums on the Free Music Archive?
-•	What are the popular tracks on the Free Music Archive?
-•	Is there a correlation between listens and interest?
-•	Where are the popular Free Music Archive artists located?
+1. What genre of artist post their music to the Free Music Archive? 
+2.	Who are the popular artists on the Free Music Archive?
+3.	What are the popular albums on the Free Music Archive?
+4.	What are the popular tracks on the Free Music Archive?
+5.	Is there a correlation between listens and interest?
+6.	Where are the popular Free Music Archive artists located?
 
 
 Metadata
@@ -58,29 +20,29 @@ The FMA provides 917 GiB and 343 days of Creative Commons-licensed audio from 10
 There are 9 datasets included in the FMA GitHub repository but for our purposes I focused on a select portion of metadata from 2 data tables. I analyzed these two data tables separately because they don’t have a common key for a union or join. I analyzed a select portion of data information on the following variables:
 
 genre.csv
-•	genre title
-•	#tracks 
+-	genre title
+-	#tracks 
 
 tracks.csv
-•	artist name 
-•	track title
-•	#listens 
-•	interest
-•	album title
-•	album type 
-•	album #listens 
-•	location 
-•	longitude 
-•	latitude
-•	genres_top
-•	active_year_begin
+-	artist name 
+-	track title
+-	#listens 
+-	interest
+-	album title
+-	album type 
+-	album #listens 
+-	location 
+-	longitude 
+-	latitude
+-	genres_top
+-	active_year_begin
 
 
 Cleaning
 The data I am interested in analyzing was organized well so there wasn’t much of cleaning to be done. I utilized Tableau Prep to clean up the column headers and remove unwanted columns. I created a custom calculation in Tableau Prep to calculate how long each individual artist has been active on the website. I used the artist_date_created column which provides a date for when each artist became active on the website. Since the data table includes data up to and including 2017 I decided to create a DATEDIFF calculation between artist_date_created and 2018-01-01.
 
 Artist Duration Calculation Field
-•	DATEDIFF('day',[artist date_created], #2018-01-01#)
+-	DATEDIFF('day',[artist date_created], #2018-01-01#)
 
 
 
@@ -117,11 +79,11 @@ Podington Bear has been on the site the longest, at 2814 days, which may be a go
 What is the most popular album on the Free Music Archive?
 
 The FMA categorizes album type into five categories:
-•	Album
-•	Radio Program
-•	Live Performance
-•	Single Tracks
-•	Contest
+-	Album
+-	Radio Program
+-	Live Performance
+-	Single Tracks
+-	Contest
 
 Bar - album listens by type 
 
@@ -183,5 +145,43 @@ I want to know where the most popular artists on the Free Music Archive are loca
 Symbol Map – artist locations, symbol sizes by track listens
 
 The above symbol map show that most of the FMA artists are located in the U.S.A. and Western Europe.
-![image](https://user-images.githubusercontent.com/10052195/153800730-e551f389-38f6-47dc-9084-dd3a18c06b39.png)
+
+
+## Welcome to GitHub Pages
+
+You can use the [editor on GitHub](https://github.com/charlesrroberts/Free-Music-Archive-Analysis-/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Markdown
+
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/charlesrroberts/Free-Music-Archive-Analysis-/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
