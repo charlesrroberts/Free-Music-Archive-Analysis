@@ -24,10 +24,6 @@ The FMA provides 917 GiB and 343 days of Creative Commons-licensed audio from 10
 
 There are 9 datasets included in the FMA GitHub repository but for our purposes I focused on a select portion of metadata from 2 data tables. I analyzed the following feilds:
 
-genre.csv
--	genre title
--	#tracks 
-
 tracks.csv
 <div style='float:left'>
 <ul>
@@ -60,6 +56,9 @@ tracks.csv
 </div>
 <div style='clear:both'></div>
 
+genre.csv
+-	genre title
+-	#tracks 
 
 ## Cleaning
 
