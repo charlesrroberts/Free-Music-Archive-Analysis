@@ -22,7 +22,7 @@ In this data story I plan to explore the currently available FMA data to answer 
 
 The FMA provides 917 GiB and 343 days of Creative Commons-licensed audio from 106,574 tracks from 16,341 artists and 14,854 albums, arranged in a hierarchical taxonomy of 161 genres. The dataset was published in 2017 and contains data from 2009 to 2017.  
 
-There are 9 datasets included in the FMA GitHub repository but for our purposes I focused on a select portion of metadata from 2 data tables. I analyzed these two data tables separately because they don’t have a common key for a union or join. I analyzed a select portion of data information on the following variables:
+There are 9 datasets included in the FMA GitHub repository but for our purposes I focused on a select portion of metadata from 2 data tables. I analyzed a select portion of data information on the following variables:
 
 genre.csv
 -	genre title
