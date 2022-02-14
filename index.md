@@ -175,30 +175,4 @@ Western Europe
 
 <script type='text/javascript' src='https://prod-ca-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 980px; height: 659px;'><object class='tableauViz' width='980' height='659' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-ca-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;charlesroberts' /><param name='name' value='Book1&#47;Dashboard13' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /></object></div>
 
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/charlesrroberts/Free-Music-Archive-Analysis-/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+** I can’t account for artists having a location listed that’s different than the longitude and latitude. I’m not sure how this information is measured.
