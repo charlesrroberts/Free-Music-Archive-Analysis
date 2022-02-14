@@ -32,6 +32,7 @@ tracks.csv
     <li>#listens</li> 
     <li>interest</li> 
     <li>genres_top</li>
+    <li>location</li> 
     <li>active_year_begin</li> 
 </ul>
 </div>
@@ -41,7 +42,6 @@ tracks.csv
     <li>album type</li>
     <li>album #listens</li> 
     <li>album #listens</li> 
-    <li>location</li> 
     <li>longitude</li> 
     <li>latitude</li>    
 </ul>
