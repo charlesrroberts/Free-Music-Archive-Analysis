@@ -2,7 +2,7 @@
     color: #76b7b2;
 }</style>
 
-## Looking at the Popular Artists, Albums and Songs on FMA
+### Looking at the Popular Artists, Albums and Songs on FMA
   
 Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
 
