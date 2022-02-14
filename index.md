@@ -1,6 +1,4 @@
-<script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
-                    
-# Free Music Archive: An Analysis of Popular Artists, Albums and Songs
+# Looking at the Popular Artists, Albums and Songs on FMA
   
 Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
 
@@ -175,7 +173,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-
-                  
-
