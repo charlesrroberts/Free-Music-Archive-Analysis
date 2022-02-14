@@ -2,6 +2,7 @@
 
 Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
 
+<script type='text/javascript' src='https://prod-ca-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder'><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-ca-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;charlesroberts' /><param name='name' value='GenreBook&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /></object></div>
 
 In this data story I plan to explore the currently available FMA data to answer the following questions:
 
