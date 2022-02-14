@@ -51,6 +51,7 @@ tracks.csv
     <li>longitude</li> 
     <li>latitude</li>
 </ul>
+</div>
 <div style='float: left'>
 <ul>
     <li>genres_top</li>
