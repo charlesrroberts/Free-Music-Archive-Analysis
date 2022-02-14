@@ -88,8 +88,6 @@ The above bar chart shows the artists with the largest amount of track listens. 
 The above bar chart shows the artists with the largest amount of interest. The chart shows us that Podington Bear has the largest amount of interest with a count 9,922,230.
 
 Counting the number of listens and interest is a good indicator of the popular artists on FMA but I also wanted to measure how long they have been active on the website. If an artist has been active on the FMA for a long period of time they would have more time to gain listens and interest.
- 
-<script type='text/javascript' src='https://prod-ca-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 980px; height: 277px;'><object class='tableauViz' width='980' height='277' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-ca-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;charlesroberts' /><param name='name' value='Book1&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /></object></div>
 
 ![Image](https://drive.google.com/uc?id=1zYCSJj3Q7zjWJQ4-ekNMOMS5GUv7npZ5)
 
@@ -109,7 +107,7 @@ The FMA categorizes album type into five categories:
 -	Single Tracks
 -	Contest
 
-<script type='text/javascript' src='https://prod-ca-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 980px; height: 276px;'><object class='tableauViz' width='980' height='276' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-ca-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;charlesroberts' /><param name='name' value='Book1&#47;Dashboard4' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /></object></div>
+![Image](https://drive.google.com/uc?id=1kZzH1gRsd46z4Mh9OhuqSEOkgO46dg8l)
 
 The above bar chart shows that the category type Album has the most album listens which is a good indicator that this is a popular category.
 
