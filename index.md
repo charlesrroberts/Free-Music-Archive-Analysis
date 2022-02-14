@@ -30,11 +30,7 @@ tracks.csv
     <li>artist name</li> 
     <li>track title</li>
     <li>#listens</li> 
-    <li>interest</li>   
-</ul>
-</div>
-<div style='float: left'>
-<ul>
+    <li>interest</li> 
     <li>album title</li>
     <li>album type</li>
     <li>album #listens</li> 
@@ -46,10 +42,6 @@ tracks.csv
     <li>location</li> 
     <li>longitude</li> 
     <li>latitude</li>
-</ul>
-</div>
-<div style='float: left'>
-<ul>
     <li>genres_top</li>
     <li>active_year_begin</li>
 </ul>
