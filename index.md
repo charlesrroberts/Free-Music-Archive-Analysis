@@ -1,31 +1,6 @@
 <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script>
- 
-
-<div class='tableauPlaceholder'>
-
-                        <object class='tableauViz' width='100%' height='100%' style='display:none;'>
-
-                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-
-                            <param name='embed_code_version' value='3' />
-
-                            <param name='site_root' value='' />
-
-                            <param name='name' value='MinimumWageSized&#47;Dashboard2' />
-
-                            <param name='tabs' value='no' />
-
-                            <param name='toolbar' value='yes' />
-
-                            <param name='showAppBanner' value='false' />
-
-                            <param name='filter' value='iframeSizedToWindow=true' />
-
-                        </object>
-
-                    </div>
                     
-                    # Free Music Archive: An Analysis of Popular Artists, Albums and Songs
+# Free Music Archive: An Analysis of Popular Artists, Albums and Songs
   
 Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
 
@@ -76,7 +51,29 @@ What genres of music are available on the Free Music Archive?
 
 My initial question when looking at the data is who uses the FMA? Initially, I wanted to find out what are the most popular genres on the FMA but I found that many artists categorize themselves by multiple genres for their music. It was difficult to analyze top genre based on the artist “listens” or “interest” data because of the overlapping and multiple genres. 
 
-<script type='text/javascript' src='https://prod-ca-a.online.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1640px; height: 914px;'><object class='tableauViz' width='1640' height='914' style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-ca-a.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;charlesroberts' /><param name='name' value='GenreBook&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='no' /><param name='showAppBanner' value='false' /></object></div>
+<div class='tableauPlaceholder'>
+
+                        <object class='tableauViz' width='100%' height='100%' style='display:none;'>
+
+                            <param name='host_url' value='https://prod-ca-a.online.tableau.com/javascripts/api/viz_v1.js' />
+
+                            <param name='embed_code_version' value='3' />
+
+                            <param name='site_root' value='' />
+
+                            <param name='name' value='MinimumWageSized&#47;Dashboard2' />
+
+                            <param name='tabs' value='no' />
+
+                            <param name='toolbar' value='no' />
+
+                            <param name='showAppBanner' value='false' />
+
+                            <param name='filter' value='iframeSizedToWindow=true' />
+
+                        </object>
+
+                    </div>
 
 I analyzed genre title and the number of tracks for each genre which shows that Experimental, Electronic and Rock genres have the highest number of tracks on the FMA compared to the other the music genres. These results suggest that creators of Experimental music are predominant users of the FMA.   
 
