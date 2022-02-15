@@ -1,6 +1,7 @@
-<style>a {
-    color: #76b7b2;
-}</style>
+<style>
+a {color: #76b7b2;}
+h2 {padding-top: 1em;}
+</style>
 
 ### Exploring Popular Artists, Albums and Songs on FMA
 
