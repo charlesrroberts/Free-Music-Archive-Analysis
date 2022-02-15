@@ -63,7 +63,7 @@ There are 9 datasets included in the FMA GitHub repository but for our purposes 
 The data I am interested in analyzing was organized well so there wasn’t much of cleaning needed. I utilized Tableau Prep to clean up the column headers and remove unwanted columns. I created a calculated field in Tableau Prep to calculate how long each individual artist has been active on the website. I used the artist_date_created column which provides a date for when each artist became active on the website. Since the data table includes data up to and including 2017, I decided to create a DATEDIFF calculation between artist_date_created and 2018-01-01.
 
 Artist Duration Calculated Field
--	DATEDIFF('day',[artist date_created], #2018-01-01#)
+-	`DATEDIFF('day',[artist date_created], #2018-01-01#)`
 
 ## What genres of music are available on the Free Music Archive?
 
