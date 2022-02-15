@@ -6,8 +6,6 @@
 
 ![Image](docs/assets/fma/headphones.png)
   
-Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
-
 The Free Music Archive (FMA) is a website that offers free access to open licensed, original music which is curated by netlabels and thousands of independent musicians around the world. The FMA website claims that they receive tens of millions of visitors every month that download music for personal use. Users share and remix music from FMA in videos, podcasts, films, games, apps, and school projects.
 
 FMA was founded in 2009 by radio station WFMU-FM which is a listener-supported, non-commercial radio station broadcasting in Jersey City, NJ. WFMU is currently the longest running freeform radio station in the United States.
