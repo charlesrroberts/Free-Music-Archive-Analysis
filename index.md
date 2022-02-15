@@ -62,14 +62,14 @@ There are 9 datasets included in the FMA GitHub repository but for our purposes 
 
 ## Cleaning
 
-The data I am interested in analyzing was organized well so there wasn’t much of cleaning to be done. I utilized Tableau Prep to clean up the column headers and remove unwanted columns. I created a custom calculation in Tableau Prep to calculate how long each individual artist has been active on the website. I used the artist_date_created column which provides a date for when each artist became active on the website. Since the data table includes data up to and including 2017 I decided to create a DATEDIFF calculation between artist_date_created and 2018-01-01.
+The data I am interested in analyzing was organized well so there wasn’t much of cleaning needed. I utilized Tableau Prep to clean up the column headers and remove unwanted columns. I created a calculated field in Tableau Prep to calculate how long each individual artist has been active on the website. I used the artist_date_created column which provides a date for when each artist became active on the website. Since the data table includes data up to and including 2017, I decided to create a DATEDIFF calculation between artist_date_created and 2018-01-01.
 
-Artist Duration Calculation Field
+Artist Duration Calculated Field
 -	DATEDIFF('day',[artist date_created], #2018-01-01#)
 
 ## What genres of music are available on the Free Music Archive?
 
-My initial question when looking at the data is who uses the FMA? Initially, I wanted to find out what are the most popular genres on the FMA but I found that many artists categorize themselves by multiple genres for their music. It was difficult to analyze top genre based on the artist “listens” or “interest” data because of the overlapping and multiple genres.
+My initial question when looking at the data is who uses the FMA? Initially, I wanted to find out what are the most popular genres on the FMA but I found that many artists categorize themselves by multiple genres for their music. It was difficult to analyze the top genre based on artist “listens” or “interest” data because of the overlap of multiple genres for each artist. I felt it was best to look at the number of tracks associated with each genre.
 
 ![Image](docs/assets/fma/Dashboard 0.png)
 
@@ -78,30 +78,31 @@ I analyzed genre title and the number of tracks for each genre which shows that 
 
 ## Who are the most popular artists on the Free Music Archive?
 
-I want to know who is the most popular artist on FMA but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured an artist’s popularity on the FMA by listens and interest counts of their songs.
+I want to know who’s the most popular artist on FMA, but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured an artist’s popularity on the FMA by listens and interest counts of their tracks.
 
 ![Image](docs/assets/fma/Dashboard 1.png)
 
-The above bar chart shows the artists with the largest amount of track listens. The chart shows us that Podington Bear has the largest amount of track listens with a count 7,287,253.
+The above bar chart shows the artists with the largest number of track listens. The chart shows us that _Podington Bear_ has the largest number of track listens with a count 7,287,253.
 
 ![Image](docs/assets/fma/Dashboard 2.png)
 
-The above bar chart shows the artists with the largest amount of interest. The chart shows us that Podington Bear has the largest amount of interest with a count 9,922,230.
+The above bar chart shows the artists with the largest number of interest per track. The chart shows us that _Podington Bear_ has the largest number of track interest with a count 9,922,230.
 
 Counting the number of listens and interest is a good indicator of the popular artists on FMA but I also wanted to measure how long they have been active on the website. If an artist has been active on the FMA for a long period of time they would have more time to gain listens and interest.
 
 ![Image](docs/assets/fma/Dashboard 3.png)
 
-The above chart shows the number of days the most popular artists have been active on the FMA. I used a calculated field to calculate the artist duration on the FMA by using the DATEDIFF function to find the difference in days with the artist_date_created field and the year 2018 because the dataset only has data up to and including 2017.
+The above chart shows the number of days the top 5 most popular artists, by listens and interest, have been active on the FMA. I used a calculated field to get the artists length of time, in days, on the FMA. I calculated the difference between the artist_date_created field and a chosen year 2018 because the dataset only has data up to and including 2017.
 
-Podington Bear has been on the site the longest, at 2814 days, which may be a good indicator why they have the most listens and interest. Kevin Macleod, Chris Zabriskie and Jahzzar have been on the site less time but have similar most listens and interest counts to Podington Bear. Kai Engel has only been on the site for 1600 days at this point but still ranks quite high for listens and interest so they should be noted as a quite popular.
+Podington Bear has been on the site the longest, at 2814 days, which may be a good indicator why they have the most listens and interest. Kevin Macleod, Chris Zabriskie and Jahzzar have been on the site less time but have similar listens and interest counts to Podington Bear. It should be noted that Kai Engel has only been on the site for 1600 days, at this point, but ranks quite high for listens and interest suggesting that they are a popular artist compared to the other top artists.
 
 Visit <a href="https://freemusicarchive.org/music/Podington_Bear" target="_blank">https://freemusicarchive.org/music/Podington_Bear</a>
 
 
 ## What is the most popular album on the Free Music Archive?
 
-The FMA categorizes album type into five categories:
+I thought it would be good to start off by looking at what types of albums are on the FMA. The FMA categorizes album type into five categories:
+
 -	Album
 -	Radio Program
 -	Live Performance
@@ -110,67 +111,76 @@ The FMA categorizes album type into five categories:
 
 ![Image](docs/assets/fma/Dashboard 4.png)
 
-The above bar chart shows that the category type Album has the most album listens which is a good indicator that this is a popular category.
+The above bar chart shows the types of albums ranked by the number of album listens. The chart shows that Album is quite predominant with the most album listens over the other types.
 
-I want to know what is the most popular album on FMA. For my analysis I measured each albums popularity on the FMA by comparing the album listens count.
+For my research question, I want to know what’s the most popular album on the FMA. For my analysis, I measured an albums popularity on the FMA by comparing the album listens count for each album.
 
 ![Image](docs/assets/fma/Dashboard 5.png)
 
-The above bar chart shows the albums with the largest amount of listens. The chart shows us that the album called Entries has the largest amount of album listens, by far, with a count 495,429,777. microSong Entries album is the next most listened to album with 100,934,450 listens followed by Bonus Beat Blast 2011 with 58,985,533 listens. 
+The above bar chart shows the albums with the largest number of album listens. The chart shows us that the album “Entries” has the largest number of album listens, by far, with a count 495,429,777. The “microSong Entries” album is the second most listened to album with 100,934,450 listens followed by “Bonus Beat Blast 2011” with 58,985,533 listens. 
 
-It should be noted that the Entries and microSong Entries are contest albums where artists submit tracks that get compiled into an album. These contest albums are promoted on the FMA thus drawing a lot of attention interest which may drive the album listens count. Entries features 108 artists with 139 tracks and microSong Entries features 115 artists with 310 tracks. The fact that these contest albums are promoted on FMA and the number of artists and tracks on these two albums are quite large are a good indicator as to why the album listen counts are large. The Bonus Beat Blast 2011 album features 31 artists with 73 tracks and may possibly be the most popular album that doesn’t have over 100 artists and is not part of any FMA promotions or contests.
+It should be noted that the “Entries” and “microSong Entries” are compiled contest albums where artists submit tracks that get judged for prizes. These contest albums are promoted on the FMA thus drawing a lot of attention interest which may drive the album listens count. “Entries” features 108 artists with 139 tracks and “microSong Entries” features 115 artists with 310 tracks. The fact that these contest albums are promoted on the FMA and have many artists and tracks are good indicators as to why the album listens counts are large. The “Bonus Beat Blast 2011” album features 31 artists with 73 tracks and may possibly be the most popular album that doesn’t have over 100 artists and is not part of any FMA promotions or contests.
 
-Expanding on my analysis of what is the most popular album on FMA, I looked at albums released by individual artists rather that aren’t contest albums. For my analysis I measured each albums popularity on the FMA by comparing the album listens count for each artist.
+Expanding on my analysis of what is the most popular album on the FMA, I looked at albums released by individual artists. For my analysis I measured each albums popularity on the FMA by comparing the album listens count for each artist.
 
 ![Image](docs/assets/fma/Dashboard 6.png)
 
-The above dot strip plot shows that Podington Bear is ranked the highest because they have 40 albums with 6,356,117 album track listens. If we’re looking at individual albums, we can clearly see that the Nameless: Hacker RPG Soundtrack by BoxCat Games is a very popular album with 1,533,769 listens; it should be noted that the album is a soundtrack by independent video game developer BoxCat Games, but it is impressive to that many listens. Chris Zabriskie has the most popular album, by an individual artist, called Cylinders with 1,363,291 listens.
-
+The above dot strip plot shows that Podington Bear is ranked the highest because they have 40 albums with 6,356,117 album track listens. If we’re looking at individual albums, we can clearly see that the “Nameless: Hacker RPG Soundtrack” by BoxCat Games is a popular album with 1,533,769 listens; it should be noted that the album is a soundtrack by independent video game developer BoxCat Games. The data shows us that Chris Zabriskie has the most popular album, by an individual artist, called “Cylinders” with 1,363,291 listens.
 
 ## What is the most popular song on the Free Music Archive?
 
-I want to know what is the most popular song on the Free Music Archive. For my analysis I measured a song’s popularity on the FMA by comparing track listens and interest counts.
+I want to know what’s the most popular song on the Free Music Archive. For my analysis I measured a songs popularity on the FMA by comparing track listens and interest counts for each track.
 
 ![Image](docs/assets/fma/Dashboard 7.png)
 
-The above dot strip plot shows the songs with the largest amount of track listens. The chart shows us that Happy Birthday is the most popular song but it should be noted that 23 different artists have this same song title with most of Happy Birthday tracks being featured on the Entries contest album. The most popular song, measured by track listens, is Night Owl by Broke For Free with 543,242 track listens.
+The above dot strip plot shows the songs with the largest number of track listens. The chart shows us that “Happy Birthday” is the most popular song, but it should be noted that 23 different artists have this song title. A lot of “Happy Birthday” tracks are featured on the “Entries” contest album which would increase listens. The most popular song measured by track listens is “Night Owl” by Broke For Free with 543,242 track listens.
 
 ![Image](docs/assets/fma/Dashboard 8.png)
 
-The above dot strip plot shows the songs with the largest amount of interest. The chart shows us that the most popular song, measured by interest, is Night Owl by Broke For Free with 3,293,557 track interests. 
+The above dot strip plot shows the songs with the largest number of track interest. The chart shows us that the most popular song, measured by interest, is “Night Owl” by Broke For Free with 3,293,557 track interests. 
 
-Overall, the most popular song on the FMA by an individual artist is Night Owl by Broke For Free with the largest number of listens and interest.
+Overall, the most popular song on the FMA by an individual artist is “Night Owl” by Broke For Free with the largest number of listens and interest.
 
 
 ## Is there a correlation between listens and interest?
 
-I want to know if there is a correlation between listens and interest on the Free Music Archive. For my analysis I measured the correlation between FMA artist’s track listens and track interest counts. It should be noted that for this analysis normalizing the data didn’t alter the results.
+I want to know if there is a correlation between listens and interest on FMA. For my analysis I measured the correlation between FMA artist’s track listens and track interest counts. It should be noted that for this analysis normalizing the data didn’t alter the results.
 
 ![Image](docs/assets/fma/Dashboard 9.png)
 
-The above scatter plot shows the correlation between track listens and track interest for each artist. The plot shows us that there is a strong correlation between listens and interest for artists that have under 1 million track listens and interest counts. As the counts gets larger most artists exist around the trend line. The most popular artists sit above the trend line with larger track listen counts but still correlated with track interest. Overall, there is a correlation between listens and interest for the majority of artists on the FMA because as track listen counts increase so does the track interest count.
+The above scatter plot shows the correlation between track listens and track interest for each artist. The plot shows us that there is a strong correlation between listens and interest for artists that have under 1 million track listens and interest counts. As the counts gets larger most artists exist around the trend line. The most popular artists sit above the trend line with larger track interest counts than track listens. Overall, there is a correlation between listens and interest for the majority of artists on the FMA because as track listen counts increase so does the track interest count.
 
-I want to know if there is a correlation between listens and interest between songs for the popular artists on the Free Music Archive. For my analysis I measured the correlation between FMA artist’s track listens and track interest counts for each song.
+I want to know if there is a correlation between listens and interest for each song by the popular artists on the FMA. For my analysis I measured the correlation between FMA artist’s track listens and track interest counts for each song.
 
 ![Image](docs/assets/fma/Dashboard 10.png)
 
-The above scatter plots shows the correlation between track listens and track interest for Podington Bear, Chris Zabriskie, Jahzzar and Kevin Macleod. It is interesting to see that there is a strong correlation between listens and interest for Chris Zabriskie songs with an even distribution along the trend line.
+The above scatter plots show the correlation between track listens and track interest for Podington Bear, Chris Zabriskie, Jahzzar and Kevin Macleod. It is interesting to note that there is a strong correlation between listens and interest for Chris Zabriskie’s songs distributed along the trend line.
  
 
 ## Where are the most popular FMA artists located around the world?
 
-I want to know where the most popular artists on the Free Music Archive are located around the world. For my analysis I used latitude and longitude coordinates to position all the artists on a map. I used a size label to represent track listens and differentiate the popular artists. 
+I want to know where the most popular artists on the Free Music Archive are located around the world. For my analysis I used latitude and longitude coordinates to position all the artists on a map. I used a size label to represent track listens in order to differentiate the popular artists. 
 
 ![Image](docs/assets/fma/Dashboard 11.png)
 
-The above symbol map show that most of the FMA artists are located in the U.S.A. and Western Europe.
+The above symbol map show that most of the FMA artists are located in the U.S.A. and Western Europe. It should be noted that I can’t account for artists having a location listed that’s different than their longitude and latitude. Also, I can’t account for the fact that some artists longitude and latitude coordinates position them in the middle of the ocean. I’m not sure how this information is acquired, and I decide to not alter this data in the cleaning process.
 
 U.S.A.
 
 ![Image](docs/assets/fma/Dashboard 12.png)
 
+The above symbol map shows FMA artists located in the U.S.A. The majority of artists I found in my analysis that I demonstrated to be popular are located on the west and east coasts of the United States.
+
 Western Europe
 
 ![Image](docs/assets/fma/Dashboard 13.png)
 
-** I can’t account for artists having a location listed that’s different than the longitude and latitude. I’m not sure how this information is measured.
+The above symbol map shows FMA artists located in Western Europe. The map shows us that there is a large FMA artist base in Western Europe, but the most popular FMA artists are located in the United States.
+
+## Conclusion
+
+Based on track listens and track interest Podington Bear is the most popular FMA artist followed by Kevin Macleod, Chris Zabriskie and Jahzzar. The most popular contest album is “Entries” with 495,429,777 album listens. The “Nameless: Hacker RPG Soundtrack” by BoxCat Games is a the most popular soundtrack album with 1,533,769 album listens. Chris Zabriskie’s album titled “Cylinders” is the most popular album by an individual artist called with 1,363,291 listens. The most popular song on the FMA by an individual artist is “Night Owl” by Broke For Free with the largest number of listens and interest.
+
+Track listens and track interest are good indicators of popularity and are be correlated based on my analysis. I found that there is a strong correlation between listens and interest for artists that have under 1 million track listens and interest counts. The most popular artists have a larger number of track interest counts than track listens. The correlation between listens and interest is present for the majority of artists on the FMA because as track listen count increases so does the track interest count.
+
+I found that for the majority of the most popular FMA artists are located in the U.S.A along west and east coasts. Western Europe has a large FMA artist base but the most popular FMA artists are located in the United States which most likely due to the fact that the FMA was created by an American based radio station.
