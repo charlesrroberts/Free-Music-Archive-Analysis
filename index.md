@@ -63,7 +63,7 @@ Artist Duration Calculation Field
 
 My initial question when looking at the data is who uses the FMA? Initially, I wanted to find out what are the most popular genres on the FMA but I found that many artists categorize themselves by multiple genres for their music. It was difficult to analyze top genre based on the artist “listens” or “interest” data because of the overlapping and multiple genres.
 
-![Image](https://drive.google.com/uc?id=1u6vN2qshL8DUS6_htDfEgEOtV3lO-l49)
+![Image](docs/assets/fma/Dashboard 0.png)
 
 I analyzed genre title and the number of tracks for each genre which shows that Experimental, Electronic and Rock genres have the highest number of tracks on the FMA compared to the other the music genres. These results suggest that creators of Experimental music are predominant users of the FMA.   
 
