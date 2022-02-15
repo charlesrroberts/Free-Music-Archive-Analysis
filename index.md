@@ -2,13 +2,19 @@
     color: #76b7b2;
 }</style>
 
-### Looking at Popular Artists, Albums and Songs on FMA
+### Exploring Popular Artists, Albums and Songs on FMA
 
 ![Image](docs/assets/fma/headphones.png)
   
 Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free access to open licensed, original music.
 
-In this data story I plan to explore the currently available FMA data to answer the following questions:
+The Free Music Archive (FMA) is a website that offers free access to open licensed, original music which is curated by netlabels and thousands of independent musicians around the world. The FMA website claims that they receive tens of millions of visitors every month that download music for personal use. Users share and remix music from FMA in videos, podcasts, films, games, apps, and school projects.
+
+FMA was founded in 2009 by radio station WFMU-FM which is a listener-supported, non-commercial radio station broadcasting in Jersey City, NJ. WFMU is currently the longest running freeform radio station in the United States.
+
+We live in an era of user-generated online content with the rise of YouTube, TikTok and Instagram. I thought it would be interesting to analyze an independent music platform, like FMA, because community-generated or user-generated content has the potential to impact a wider audience than branded content. A Stackla survey from 2019 states that “90% of consumers say authenticity is important when deciding which brands they like and support” (<a href="https://stackla.com/resources/reports/bridging-the-gap-consumer-marketing-perspectives-on-content-in-the-digital-age/" target="_blank">Stackla,2019</a>). When I visit the FMA I get the feeling that the content is authentic  and trustworthy as opposed to the Spotify or Apple Music brands where they are trying to market or sell something to you. 
+
+I utilized Tableau and Tableau Prep for data exploring, analyzing, and creating visualizations. Using the FMA data, I seek to answer the following questions:
 
 1. What genres of music are available on the Free Music Archive?
 2. Who are the popular artists on the Free Music Archive?
@@ -18,13 +24,15 @@ In this data story I plan to explore the currently available FMA data to answer 
 6. Where are the popular Free Music Archive artists located?
 
 
-## Metadata
+## Data Collection
 
-The FMA provides 917 GiB and 343 days of Creative Commons-licensed audio from 106,574 tracks from 16,341 artists and 14,854 albums, arranged in a hierarchical taxonomy of 161 genres. The dataset was published in 2017 and contains data from 2009 to 2017.  
+Data Source: <a href="https://github.com/mdeff/fma" target="_blank">https://github.com/mdeff/fma</a>
 
-There are 9 datasets included in the FMA GitHub repository but for our purposes I focused on a select portion of metadata from 2 data tables. I analyzed the following feilds:
+The FMA dataset provides data on 917 GiB of Creative Commons-licensed audio files from 106,574 tracks from 16,341 artists and 14,854 albums, arranged in a hierarchical taxonomy of 161 genres. The dataset was published in 2017 and contains data from 2009 to 2017.  
 
-tracks.csv
+There are 9 datasets included in the FMA GitHub repository but for our purposes I focused on a select portion of metadata from 2 data tables. I analyzed a select portion of data information on the following fields:
+
+**tracks.csv**
 <div style='float:left'>
 <ul>
     <li>artist name</li> 
@@ -48,7 +56,7 @@ tracks.csv
 </div>
 <div style='clear:both'></div>
 
-genre.csv
+**genre.csv**
 -	genre title
 -	#tracks 
 
