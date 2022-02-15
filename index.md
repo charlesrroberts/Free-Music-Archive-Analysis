@@ -164,13 +164,9 @@ I want to know where the most popular artists on the Free Music Archive are loca
 
 The above symbol map show that most of the FMA artists are located in the U.S.A. and Western Europe. It should be noted that I can’t account for artists having a location listed that’s different than their longitude and latitude. Also, I can’t account for the fact that some artists longitude and latitude coordinates position them in the middle of the ocean. I’m not sure how this information is acquired, and I decide to not alter this data in the cleaning process.
 
-### U.S.A.
-
 ![Image](docs/assets/fma/Dashboard 12.png)
 
 The above symbol map shows FMA artists located in the U.S.A. The majority of artists I found in my analysis that I demonstrated to be popular are located on the west and east coasts of the United States.
-
-### Western Europe
 
 ![Image](docs/assets/fma/Dashboard 13.png)
 
