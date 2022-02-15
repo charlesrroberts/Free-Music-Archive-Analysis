@@ -10,12 +10,12 @@ Free Music Archive (FMA), founded in 2009 by radio station WFMU, offers free acc
 
 In this data story I plan to explore the currently available FMA data to answer the following questions:
 
-1. What genre of artist post their music to the Free Music Archive? 
-2.	Who are the popular artists on the Free Music Archive?
-3.	What are the popular albums on the Free Music Archive?
-4.	What are the popular tracks on the Free Music Archive?
-5.	Is there a correlation between listens and interest?
-6.	Where are the popular Free Music Archive artists located?
+1. What genres of music are available on the Free Music Archive?
+2. Who are the popular artists on the Free Music Archive?
+3. What are the popular albums on the Free Music Archive?
+4. What are the popular tracks on the Free Music Archive?
+5. Is there a correlation between listens and interest?
+6. Where are the popular Free Music Archive artists located?
 
 
 ## Metadata
