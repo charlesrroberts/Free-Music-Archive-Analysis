@@ -100,7 +100,7 @@ The FMA categorizes album type into five categories:
 -	Single Tracks
 -	Contest
 
-![Image](https://drive.google.com/uc?id=1281ZSBGsiLMVwZVGAiGfTc5Kw2Loae1N)
+![Image](https://drive.google.com/uc?id=1FVBCiPKe7KpsiY-jn3RqEnFrfAKlEtlr)
 
 The above bar chart shows that the category type Album has the most album listens which is a good indicator that this is a popular category.
 
