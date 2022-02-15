@@ -179,3 +179,10 @@ Based on track listens and track interest _Podington Bear_ is the most popular F
 Track listens and track interest are good indicators of popularity and are be correlated based on my analysis. I found that there is a strong correlation between listens and interest for artists that have under 1 million track listens and interest counts. The most popular artists have a larger number of track interest counts than track listens. The correlation between listens and interest is present for the majority of artists on the FMA because as track listen count increases so does the track interest count.
 
 I found that for the majority of the most popular FMA artists are located in the U.S.A along west and east coasts. Western Europe has a large FMA artist base but the most popular FMA artists are located in the United States which most likely due to the fact that the FMA was created by an American based radio station.
+
+
+## References
+
+<a href="https://github.com/mdeff/fma" target="_blank">https://github.com/mdeff/fma</a> <br />
+<a href="https://freemusicarchive.org/" target="_blank">https://freemusicarchive.org/</a> <br />
+<a href="https://stackla.com/resources/reports/bridging-the-gap-consumer-marketing-perspectives-on-content-in-the-digital-age/" target="_blank">https://stackla.com/resources/reports/bridging-the-gap-consumer-marketing-perspectives-on-content-in-the-digital-age/</a>
