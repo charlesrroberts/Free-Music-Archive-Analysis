@@ -7,20 +7,20 @@ h2 {padding-top: 1em;}
 
 ![Image](docs/assets/fma/headphones.png)
   
-The Free Music Archive (FMA) is a website that offers free access to open licensed, original music which is curated by netlabels and thousands of independent musicians around the world. The FMA website claims that they receive tens of millions of visitors every month that download music for personal use. Users share and remix music from FMA in videos, podcasts, films, games, apps, and school projects.
+The Free Music Archive (FMA) is a website that offers free access to open licensed, original music which is curated by netlabels and thousands of independent musicians around the world. The FMA website claims that it receives tens of millions of visitors every month who download music for personal use. Users share and remix music from FMA in videos, podcasts, films, games, apps, and school projects.
 
-FMA was founded in 2009 by radio station WFMU-FM which is a listener-supported, non-commercial radio station broadcasting in Jersey City, NJ. WFMU is currently the longest running freeform radio station in the United States.
+The FMA was founded in 2009 by radio station WFMU-FM which is a listener-supported, non-commercial radio station broadcasting in Jersey City, NJ. WFMU is currently the longest running freeform radio station in the United States.
 
-We live in an era of user-generated online content with the rise of YouTube, TikTok and Instagram. I thought it would be interesting to analyze an independent music platform, like FMA, because community-generated or user-generated content has the potential to impact a wider audience than branded content. A Stackla survey from 2019 states that “90% of consumers say authenticity is important when deciding which brands they like and support” (<a href="https://stackla.com/resources/reports/bridging-the-gap-consumer-marketing-perspectives-on-content-in-the-digital-age/" target="_blank">Stackla, 2019</a>). When I visit the FMA I get the feeling that the content is authentic  and trustworthy as opposed to the Spotify or Apple Music brands where they are trying to market or sell something to you. 
+We live in an era of user-generated online content with the rise of YouTube, TikTok and Instagram. I thought it would be interesting to analyze an independent music platform, like FMA, because community-generated or user-generated content has the potential to impact a wider audience than branded content. A survey from 2019 states that “90% of consumers say authenticity is important when deciding which brands they like and support” (<a href="https://stackla.com/resources/reports/bridging-the-gap-consumer-marketing-perspectives-on-content-in-the-digital-age/" target="_blank">Stackla, 2019</a>). When I visit the FMA I get the feeling that the content is authentic  and trustworthy as opposed to the Spotify or Apple Music brands where they are trying to market or sell something to you. 
 
-I utilized Tableau and Tableau Prep for data exploring, analyzing, and creating visualizations. Using the FMA data, I seek to answer the following questions:
+I used Tableau and Tableau Prep for data exploring, analyzing and creating visualizations. Using the FMA data, I want to answer the following questions:
 
 1. What genres of music are available on the Free Music Archive?
 2. Who are the popular artists on the Free Music Archive?
 3. What are the popular albums on the Free Music Archive?
 4. What are the popular tracks on the Free Music Archive?
 5. Is there a correlation between listens and interest?
-6. Where are the popular Free Music Archive artists located?
+6. Where are the popular Free Music Archive artists geographically located?
 
 
 ## Data Collection
@@ -29,7 +29,7 @@ Data Source: <a href="https://github.com/mdeff/fma" target="_blank">https://gith
 
 The FMA dataset provides data on 917 GiB of Creative Commons-licensed audio files from 106,574 tracks from 16,341 artists and 14,854 albums, arranged in a hierarchical taxonomy of 161 genres. The dataset was published in 2017 and contains data from 2009 to 2017.  
 
-There are 9 datasets included in the FMA GitHub repository but for our purposes I focused on a select portion of metadata from 2 data tables. I analyzed a select portion of data information on the following fields:
+There are 9 datasets included in the FMA GitHub repository but for my purposes I am focusing on select metadata from 2 data tables on the following fields:
 
 **tracks.csv**
 <div style='float:left'>
@@ -39,7 +39,6 @@ There are 9 datasets included in the FMA GitHub repository but for our purposes 
     <li>#listens</li> 
     <li>interest</li> 
     <li>genres_top</li>
-    <li>location</li> 
     <li>active_year_begin</li> 
 </ul>
 </div>
@@ -48,7 +47,7 @@ There are 9 datasets included in the FMA GitHub repository but for our purposes 
      <li>album title</li>
     <li>album type</li>
     <li>album #listens</li> 
-    <li>album #listens</li> 
+    <li>location</li> 
     <li>longitude</li> 
     <li>latitude</li>    
 </ul>
@@ -61,23 +60,23 @@ There are 9 datasets included in the FMA GitHub repository but for our purposes 
 
 ## Cleaning
 
-The data I am interested in analyzing was organized well so there wasn’t much of cleaning needed. I utilized Tableau Prep to clean up the column headers and remove unwanted columns. I created a calculated field in Tableau Prep to calculate how long each individual artist has been active on the website. I used the artist_date_created column which provides a date for when each artist became active on the website. Since the data table includes data up to and including 2017, I decided to create a DATEDIFF calculation between artist_date_created and 2018-01-01.
+The data I am interested in analyzing was organized well so there was not much cleaning needed. I use Tableau Prep to clean up the column headers and remove unwanted columns. I create a calculated field in Tableau Prep to find how long each individual artist has been active on the website. I use the artist_date_created column which provides a date for when each artist became active on the website. Since the data table includes data up to and including 2017, I decided to create a DATEDIFF calculation between artist_date_created and 2018-01-01.
 
 Artist Duration Calculated Field
 -	`DATEDIFF('day',[artist date_created], #2018-01-01#)`
 
 ## What genres of music are available on the Free Music Archive?
 
-My initial question when looking at the data is who uses the FMA? Initially, I wanted to find out what are the most popular genres on the FMA but I found that many artists categorize themselves by multiple genres for their music. It was difficult to analyze the top genre based on artist “listens” or “interest” data because of the overlap of multiple genres for each artist. I felt it was best to look at the number of tracks associated with each genre.
+My initial question when looking at the data is who uses the FMA? Initially, I wanted to find the most popular genres on the FMA but I found that many artists categorize themselves by multiple genres for their music. It was difficult to analyze the top genre based on artist “listens” or “interest” data because of the overlap of multiple genres for each artist. I felt it was best to look at the number of tracks associated with each genre.
 
 ![Image](docs/assets/fma/Dashboard 0.png)
 
-I analyzed genre title and the number of tracks for each genre which shows that Experimental, Electronic and Rock genres have the highest number of tracks on the FMA compared to the other the music genres. These results suggest that creators of Experimental music are predominant users of the FMA.   
+I analyzed genre title and the number of tracks for each genre which shows that Experimental, Electronic and Rock genres have the highest number of tracks on the FMA compared to the other music genres. These results suggest that creators of Experimental music are predominant users of the FMA.   
 
 
 ## Who are the most popular artists on the Free Music Archive?
 
-I want to know who’s the most popular artist on FMA, but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured an artist’s popularity on the FMA by listens and interest counts of their tracks.
+I want to know the most popular artist on FMA, but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured an artist’s popularity on the FMA by listens and interest counts of their tracks.
 
 ![Image](docs/assets/fma/Dashboard 1.png)
 
@@ -91,9 +90,9 @@ Counting the number of listens and interest is a good indicator of the popular a
 
 ![Image](docs/assets/fma/Dashboard 3.png)
 
-The above chart shows the number of days the top 5 most popular artists, by listens and interest, have been active on the FMA. I used a calculated field to get the artists length of time, in days, on the FMA. I calculated the difference between the artist_date_created field and a chosen year 2018 because the dataset only has data up to and including 2017.
+The above chart shows the number of days the top 5 most popular artists, by listens and interest, have been active on the FMA. I used a calculated field to get the artists length of time, in days, on the FMA. I calculated the difference between the artist_date_created field and a chosen year of 2018 because the dataset only has data up to and including 2017.
 
-_Podington Bear_ has been on the site the longest, at 2814 days, which may be a good indicator why they have the most listens and interest. _Kevin Macleod, Chris Zabriskie_ and _Jahzzar_ have been on the site less time but have similar listens and interest counts to _Podington Bear_. It should be noted that _Kai Engel_ has only been on the site for 1600 days, at this point, but ranks quite high for listens and interest suggesting that they are a popular artist compared to the other top artists.
+_Podington Bear_ has been on the website the longest, at 2814 days, which may be a good indicator of why they have the most listens and interest. _Kevin Macleod, Chris Zabriskie_ and _Jahzzar_ have been on the website for less time but they have similar listens and interest counts to _Podington Bear_. It should be noted that _Kai Engel_ has only been on the site for 1600 days at this point but ranks quite high for listens and interest suggesting that they are a popular artist compared to the other top artists.
 
 Visit <a href="https://freemusicarchive.org/music/Podington_Bear" target="_blank">https://freemusicarchive.org/music/Podington_Bear</a>
 
@@ -110,17 +109,17 @@ I thought it would be good to start off by looking at what types of albums are o
 
 ![Image](docs/assets/fma/Dashboard 4.png)
 
-The above bar chart shows the types of albums ranked by the number of album listens. The chart shows that Album is quite predominant with the most album listens over the other types.
+The above bar chart shows the types of albums ranked by the number of album listens. The chart shows that the album type Album is quite predominant with the most album listens over the other types.
 
-For my research question, I want to know what’s the most popular album on the FMA. For my analysis, I measured an albums popularity on the FMA by comparing the album listens count for each album.
+For my research question, I want to know the most popular album on the FMA. For my analysis, I compared the album listens count for all the albums on the FMA.
 
 ![Image](docs/assets/fma/Dashboard 5.png)
 
-The above bar chart shows the albums with the largest number of album listens. The chart shows us that the album “Entries” has the largest number of album listens, by far, with a count 495,429,777. The “microSong Entries” album is the second most listened to album with 100,934,450 listens followed by “Bonus Beat Blast 2011” with 58,985,533 listens. 
+The above bar chart shows the albums with the largest number of album listens. The chart shows us that the album “Entries” has the largest number of album listens with a count 495,429,777. The “microSong Entries” album is the second most listened to album with 100,934,450 listens followed by “Bonus Beat Blast 2011” with 58,985,533 listens. 
 
-It should be noted that the “Entries” and “microSong Entries” are compiled contest albums where artists submit tracks that get judged for prizes. These contest albums are promoted on the FMA thus drawing a lot of attention interest which may drive the album listens count. “Entries” features 108 artists with 139 tracks and “microSong Entries” features 115 artists with 310 tracks. The fact that these contest albums are promoted on the FMA and have many artists and tracks are good indicators as to why the album listens counts are large. The “Bonus Beat Blast 2011” album features 31 artists with 73 tracks and may possibly be the most popular album that doesn’t have over 100 artists and is not part of any FMA promotions or contests.
+It should be noted that the “Entries” and “microSong Entries” are compiled contest albums where artists submit tracks that get judged for prizes. These contest albums are promoted on the FMA thus drawing a lot of attention and interest which may increase the album listens count. “Entries” features 108 artists with 139 tracks and “microSong Entries” features 115 artists with 310 tracks. The fact that these contest albums are promoted on the FMA and have many artists and tracks are good indicators as to why the album listens counts are large. The “Bonus Beat Blast 2011” album features 31 artists with 73 tracks and may possibly be the most popular album that does not have over 100 artists and is not part of any FMA promotions or contests.
 
-Expanding on my analysis of what is the most popular album on the FMA, I looked at albums released by individual artists. For my analysis I measured each albums popularity on the FMA by comparing the album listens count for each artist.
+Expanding on my analysis of the most popular album on the FMA, I looked at albums released by individual artists. For my analysis I measured each album's popularity on the FMA by comparing the album listens count for each artist.
 
 ![Image](docs/assets/fma/Dashboard 6.png)
 
