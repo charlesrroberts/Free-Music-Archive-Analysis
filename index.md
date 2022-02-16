@@ -18,7 +18,7 @@ I used Tableau and Tableau Prep for data exploring, analyzing and creating visua
 1. What genres of music are available on the Free Music Archive?
 2. Who are the popular artists on the Free Music Archive?
 3. What are the popular albums on the Free Music Archive?
-4. What are the popular tracks on the Free Music Archive?
+4. What are the popular songs on the Free Music Archive?
 5. Is there a correlation between listens and interest between Free Music Archive artists?
 6. Where are the most popular Free Music Archive artists geographically located?
 
@@ -97,7 +97,7 @@ _Podington Bear_ has been on the website the longest, at 2814 days, which may be
 Visit <a href="https://freemusicarchive.org/music/Podington_Bear" target="_blank">https://freemusicarchive.org/music/Podington_Bear</a>
 
 
-## What is the most popular album on the Free Music Archive?
+## What are the popular albums on the Free Music Archive?
 
 I thought it would be good to start off by looking at what types of albums are on the FMA. The FMA categorizes album type into five categories:
 
@@ -125,7 +125,7 @@ Expanding on my analysis of the most popular album on the FMA, I looked at album
 
 The above dot strip plot shows that _Podington Bear_ is ranked the highest with 40 albums and 6,356,117 album track listens. Since we’re looking at individual albums, we can clearly see that the “Nameless: Hacker RPG Soundtrack” by _BoxCat Games_ is the most popular album with 1,533,769 listens. It should be noted that the album is a soundtrack by independent video game developer _BoxCat Games_ featuring a compilation of mutiple artists. The data shows us that _Chris Zabriskie_ has the most popular album by an individual artist called “Cylinders” with 1,363,291 listens.
 
-## What is the most popular song on the Free Music Archive?
+## What are the popular songs on the Free Music Archive?
 
 I want to know the most popular song on the FMA. For my analysis I measured a song's popularity on the FMA by comparing track listens and interest counts for each track.
 
