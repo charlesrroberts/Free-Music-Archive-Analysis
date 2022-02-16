@@ -20,7 +20,7 @@ I used Tableau and Tableau Prep for data exploring, analyzing and creating visua
 3. What are the popular albums on the Free Music Archive?
 4. What are the popular songs on the Free Music Archive?
 5. Is there a correlation between listens and interest between Free Music Archive artists?
-6. Where are the most popular Free Music Archive artists geographically located?
+6. Where are the popular Free Music Archive artists geographically located?
 
 
 ## Data Collection
@@ -74,7 +74,7 @@ My initial question when looking at the data is who uses the FMA? Initially, I w
 I analyzed genre title and the number of tracks for each genre which shows that Experimental, Electronic and Rock genres have the highest number of tracks on the FMA compared to the other music genres. These results suggest that creators of Experimental music are predominant users of the FMA.   
 
 
-## Who are the most popular artists on the Free Music Archive?
+## Who are the popular artists on the Free Music Archive?
 
 I want to know the most popular artist on FMA, but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured an artist’s popularity on the FMA by listens and interest counts of their tracks.
 
@@ -155,7 +155,7 @@ I want to know if there is a correlation between listens and interest for each s
 The above scatter plots show the correlation between track listens and track interest for _Podington Bear, Chris Zabriskie, Jahzzar_ and _Kevin Macleod_. It is interesting to note that there is a strong correlation between listens and interest for _Chris Zabriskie’s_ songs distributed along the trend line.
  
 
-## Where are the most popular Free Music Archive artists geographically located?
+## Where are the popular Free Music Archive artists geographically located?
 
 I want to know where the most popular artists on the FMA are located around the world. For my analysis I used latitude and longitude coordinates to position all the artists on a map. I used a size label to represent track listens in order to differentiate the popular artists. 
 
