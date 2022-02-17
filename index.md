@@ -127,7 +127,7 @@ Expanding on my analysis of the most popular album on the FMA, I looked at album
 
 ![Image](docs/assets/fma/Dashboard 6.png)
 
-The above dot strip plot shows that _Podington Bear_ is ranked the highest with 40 albums and 6,356,117 album track listens. Since we’re looking at individual albums, we can clearly see that the “Nameless: Hacker RPG Soundtrack” by _BoxCat Games_ is the most popular album with 1,533,769 listens. It should be noted that the album is a soundtrack by independent video game developer _BoxCat Games_ featuring a compilation of mutiple artists. The data shows us that _Chris Zabriskie_ has the most popular album by an individual artist called “Cylinders” with 1,363,291 listens.
+The above dot strip plot shows that _Podington Bear_ is ranked the highest with 40 albums and 6,356,117 album track listens. Since we’re looking at individual albums, we can clearly see that the “Nameless: Hacker RPG Soundtrack” by _BoxCat Games_ is the most popular album with 1,533,769 listens. It should be noted that the album is a soundtrack by independent video game developer _BoxCat Games_ featuring a compilation of mutiple artists. The data shows us that “Cylinders” by _Chris Zabriskie_ is the most popular album by an individual artist with 1,363,291 listens.
 
 ## What are the popular songs on the Free Music Archive?
 
