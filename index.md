@@ -113,7 +113,7 @@ I thought it would be good to start off by looking at what types of albums are o
 
 ![Image](docs/assets/fma/Dashboard 4.png)
 
-The above bar chart shows the types of albums ranked by the number of album listens. The chart shows that the album type Album is quite predominant with the most album listens over the other types.
+The above bar chart shows the types of albums ranked by the count of album listens. The chart shows that the album type _Album_ is quite predominant with the most album listens over the other types.
 
 For my research question, I want to know the most popular album on the FMA. For my analysis, I compared the album listens count for all the albums on the FMA.
 
