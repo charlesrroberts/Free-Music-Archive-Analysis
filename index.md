@@ -98,11 +98,11 @@ The above chart shows the number of days the top 5 most popular artists, by list
 _Podington Bear_ has been on the website the longest, at 2814 days, which may be a good indicator of why they have the most listens and interest. _Kevin Macleod, Chris Zabriskie_ and _Jahzzar_ have been on the website for less time but they have similar listens and interest counts to _Podington Bear_. It should be noted that _Kai Engel_ has only been on the site for 1600 days at this point but ranks quite high for listens and interest suggesting that they are a popular artist compared to the other top artists.
 
 ### Poplular Artists on the Free Music Archive
-Podington Bear <a href="https://freemusicarchive.org/music/Podington_Bear" target="_blank">https://freemusicarchive.org/music/Podington_Bear</a><br />
+<a href="https://freemusicarchive.org/music/Podington_Bear" target="_blank">Podington Bear</a><br />
 Chris Zabriskie
-Kevin Macleod <a href="https://freemusicarchive.org/music/Kevin_MacLeod" target="_blank">https://freemusicarchive.org/music/Kevin_MacLeod</a><br />
-Jahzzar <a href="https://freemusicarchive.org/music/Jahzzar" target="_blank">https://freemusicarchive.org/music/Jahzzar</a><br />
-Kai Engel <a href="https://freemusicarchive.org/music/Kai_Engel" target="_blank">https://freemusicarchive.org/music/Kai_Engel</a>
+<a href="https://freemusicarchive.org/music/Kevin_MacLeod" target="_blank">Kevin Macleod</a><br />
+<a href="https://freemusicarchive.org/music/Jahzzar" target="_blank">Jahzzar</a><br />
+<a href="https://freemusicarchive.org/music/Kai_Engel" target="_blank">Kai Engel</a>
 
 
 ## What are the popular albums on the Free Music Archive?
@@ -135,8 +135,8 @@ The above dot strip plot shows that _Podington Bear_ is ranked the highest with 
 
 ### Poplular Albums on the Free Music Archive
 
-Entries <a href="https://freemusicarchive.org/music/Happy_Birthday_Song_Contest/The_New_Birthday_Song_Contest" target="_blank">https://freemusicarchive.org/music/Happy_Birthday_Song_Contest/The_New_Birthday_Song_Contest</a><br />
-Nameless: The Hacker RPG Soundtrack by BoxCat Games <a href="https://freemusicarchive.org/music/BoxCat_Games/Nameless_the_Hackers_RPG_Soundtrack" target="_blank">https://freemusicarchive.org/music/BoxCat_Games/Nameless_the_Hackers_RPG_Soundtrack</a><br />
+<a href="https://freemusicarchive.org/music/Happy_Birthday_Song_Contest/The_New_Birthday_Song_Contest" target="_blank">Entries</a><br />
+<a href="https://freemusicarchive.org/music/BoxCat_Games/Nameless_the_Hackers_RPG_Soundtrack" target="_blank">Nameless: The Hacker RPG Soundtrack</a> by BoxCat Games<br />
 Cylinders by Chris Zabriskie
 
 ## What are the popular songs on the Free Music Archive?
@@ -155,11 +155,11 @@ Overall, “Happy Birthday” is the most popular song on the FMA but the most p
 
 ### Poplular Songs on the Free Music Archive
 
-Night Owl by Broke For Free <a href="https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl" target="_blank">https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl</a><br />
-Starling by Podington Bear <a href="https://freemusicarchive.org/music/Podington_Bear/Solo_Instruments/Starling" target="_blank">https://freemusicarchive.org/music/Podington_Bear/Solo_Instruments/Starling</a><br />
-Springish by Gillicuddy <a href="https://freemusicarchive.org/music/gillicuddy/Plays_Guitar/05-springish" target="_blank">https://freemusicarchive.org/music/gillicuddy/Plays_Guitar/05-springish</a><br />
-Enthusiast by Tours <a href="https://freemusicarchive.org/music/Tours/Enthusiast/Tours_-_Enthusiast" target="_blank">https://freemusicarchive.org/music/Tours/Enthusiast/Tours_-_Enthusiast</a><br />
-Siesta by Jahzzar <a href="https://freemusicarchive.org/music/Jahzzar/Travellers_Guide/Siesta" target="_blank">https://freemusicarchive.org/music/Jahzzar/Travellers_Guide/Siesta</a>
+<a href="https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl" target="_blank">Night Owl</a>  by Broke For Free<br />
+<a href="https://freemusicarchive.org/music/Podington_Bear/Solo_Instruments/Starling" target="_blank">Starling</a> by Podington Bear<br />
+<a href="https://freemusicarchive.org/music/gillicuddy/Plays_Guitar/05-springish" target="_blank">Springish</a>  by Gillicuddy <br />
+<a href="https://freemusicarchive.org/music/Tours/Enthusiast/Tours_-_Enthusiast" target="_blank">Enthusiast</a> by Tours<br />
+<a href="https://freemusicarchive.org/music/Jahzzar/Travellers_Guide/Siesta" target="_blank">Siesta</a> by Jahzzar
 
 ##  Is there a correlation between track listens and track interest on the Free Music Archive?
 
