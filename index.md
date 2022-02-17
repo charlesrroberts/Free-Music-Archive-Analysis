@@ -26,7 +26,7 @@ I used Tableau and Tableau Prep for data exploring, analyzing and creating visua
 6. Where are the popular Free Music Archive artists geographically located?
 
 
-## Data Collection
+## Metadata
 
 Data Source: <a href="https://github.com/mdeff/fma" target="_blank">https://github.com/mdeff/fma</a>
 
