@@ -136,6 +136,8 @@ The above dot strip plot shows that _Podington Bear_ is ranked the highest with 
 ### Poplular Albums on the Free Music Archive
 
 <a href="https://freemusicarchive.org/music/Happy_Birthday_Song_Contest/The_New_Birthday_Song_Contest" target="_blank">Entries</a><br />
+<a href="https://freemusicarchive.org/music/microSong_Challenge/2015021275957958" target="_blank">microSong Entries</a><br />
+<a href="https://freemusicarchive.org/music/dublab/Bonus_Beat_Blast_2011" target="_blank">Bonus Beat Blast 2011</a><br />
 <a href="https://freemusicarchive.org/music/BoxCat_Games/Nameless_the_Hackers_RPG_Soundtrack" target="_blank">Nameless: The Hacker RPG Soundtrack</a> by BoxCat Games<br />
 Cylinders by Chris Zabriskie
 
