@@ -149,7 +149,7 @@ The above dot strip plot shows the songs with the largest count of track listens
 
 ![Image](docs/assets/fma/Dashboard 8.png)
 
-The above dot strip plot shows the songs with the largest count of track interest. The chart shows us that the most popular song measured by interest is “Night Owl” by _Broke For Free_ with 3,293,557 track interests. 
+The above dot strip plot shows the songs with the largest count of track interest. The chart shows us that the most popular song measured by interest is “Night Owl” by _Broke For Free_ with 3,293,557 track interests. The second most popular song "Enthusiast" by _Tours_ with 1,991,344 track listens followed by "Siesta" by _Jahzzar_ with 1,563,555 track intersts.  
 
 Overall, “Happy Birthday” is the most popular song on the FMA but the most popular song by an individual artist is “Night Owl” by _Broke For Free_ with 3,293,557 track interest counts.
 
@@ -158,7 +158,8 @@ Overall, “Happy Birthday” is the most popular song on the FMA but the most p
 Night Owl by Broke For Free <a href="https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl" target="_blank">https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl</a><br />
 Starling by Podington Bear <a href="https://freemusicarchive.org/music/Podington_Bear/Solo_Instruments/Starling" target="_blank">https://freemusicarchive.org/music/Podington_Bear/Solo_Instruments/Starling</a><br />
 Springish by Gillicuddy <a href="https://freemusicarchive.org/music/gillicuddy/Plays_Guitar/05-springish" target="_blank">https://freemusicarchive.org/music/gillicuddy/Plays_Guitar/05-springish</a><br />
-
+Enthusiast by Tours <a href="https://freemusicarchive.org/music/Tours/Enthusiast/Tours_-_Enthusiast" target="_blank">https://freemusicarchive.org/music/Tours/Enthusiast/Tours_-_Enthusiast</a><br />
+Siesta by Jahzzar <a href="https://freemusicarchive.org/music/Jahzzar/Travellers_Guide/Siesta" target="_blank">https://freemusicarchive.org/music/Jahzzar/Travellers_Guide/Siesta</a>
 
 ##  Is there a correlation between track listens and track interest on the Free Music Archive?
 
