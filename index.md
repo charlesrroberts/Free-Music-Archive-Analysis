@@ -145,7 +145,7 @@ I want to know what are the popular songs on the FMA. For my analysis I measured
 
 ![Image](docs/assets/fma/Dashboard 7.png)
 
-The above dot strip plot shows the songs with the largest count of track listens. The chart shows us that “Happy Birthday” is the most popular song but it should be noted that 23 different artists have this song title. A lot of “Happy Birthday” tracks are featured on the “Entries” contest album which would increase listens. The most popular song measured by track listens is “Night Owl” by _Broke For Free_ with 543,242 track listens.
+The above dot strip plot shows the songs with the largest count of track listens. The chart shows us that “Happy Birthday” is the most popular song but it should be noted that 23 different artists have this song title. A lot of “Happy Birthday” tracks are featured on the “Entries” contest album which would increase listens. The most popular song measured by track listens is “Night Owl” by _Broke For Free_ with 543,242 track listens. The second most popular song "Starling" by _Podington Bear_ with 491,234 track listens followed by "Springish" by _Gillicuddy_ with 486,163 track listens. 
 
 ![Image](docs/assets/fma/Dashboard 8.png)
 
@@ -153,10 +153,11 @@ The above dot strip plot shows the songs with the largest count of track interes
 
 Overall, “Happy Birthday” is the most popular song on the FMA but the most popular song by an individual artist is “Night Owl” by _Broke For Free_ with 3,293,557 track interest counts.
 
-### Poplular Albums on the Free Music Archive
+### Poplular Songs on the Free Music Archive
 
-Night Owl by  Broke For Free <a href="https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl" target="_blank">https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl</a><br />
-
+Night Owl by Broke For Free <a href="https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl" target="_blank">https://freemusicarchive.org/music/Broke_For_Free/Directionless_EP/Broke_For_Free_-_Directionless_EP_-_01_Night_Owl</a><br />
+Starling by Podington Bear <a href="https://freemusicarchive.org/music/Podington_Bear/Solo_Instruments/Starling" target="_blank">https://freemusicarchive.org/music/Podington_Bear/Solo_Instruments/Starling</a><br />
+Springish by Gillicuddy <a href="https://freemusicarchive.org/music/gillicuddy/Plays_Guitar/05-springish" target="_blank">https://freemusicarchive.org/music/gillicuddy/Plays_Guitar/05-springish</a><br />
 
 
 ##  Is there a correlation between track listens and track interest on the Free Music Archive?
