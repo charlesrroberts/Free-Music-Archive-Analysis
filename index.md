@@ -4,6 +4,7 @@ h2 {padding-top: 1em;}
 </style>
 
 ### Exploring Popular Artists, Albums and Songs on FMA
+**By Charles Roberts**
 
 ![Image](docs/assets/fma/headphones.png)
   
