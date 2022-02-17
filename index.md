@@ -146,26 +146,26 @@ Overall, “Happy Birthday” is the most popular song on the FMA but the most p
 
 ##  Is there a correlation between track listens and track interest on the Free Music Archive?
 
-I want to know if there is a correlation between listens and interest between FMA artists. For my analysis I measured the correlation between FMA artists' track listens and track interest counts. It should be noted that for this analysis normalizing the data did not alter the results.
+I want to know if there is a correlation between listens and interest for FMA artists. For my analysis I measured the correlation between FMA artists' track listens and track interest counts. It should be noted that for this analysis normalizing the data did not alter the results.
 
 ![Image](docs/assets/fma/Dashboard 9.png)
 
-The above scatter plot shows the correlation between track listens and track interest for each artist. The plot shows us that there is a strong correlation between listens and interest for artists that have under 1 million track listens and interest counts. As the counts gets larger most artists exist around the trend line. The most popular artists sit above the trend line with larger track interest counts than track listens. Overall, there is a correlation between listens and interest for the majority of artists on the FMA because as track listen counts increase so does the track interest count.
+The above scatter plot shows the correlation between track listens and track interest for each artist. The plot shows us that there is a correlation between listens and interest for artists that have under 1 million track listens and interest counts. As the counts gets larger most artists exist around the trend line. The popular artists sit above the trend line with larger track interest counts than track listens. Overall, there is a correlation between listens and interest for the majority of artists on the FMA because as track listen counts increase so does the track interest count.
 
-I want to know if there is a correlation between listens and interest for each song by the most popular artists on the FMA. For my analysis I measured the correlation between FMA artists' track listens and track interest counts for each song.
+I want to know if there is a correlation between listens and interest for each song by the popular artists on the FMA. For my analysis I measured the correlation between FMA artists' track listens and track interest counts for each song.
 
 ![Image](docs/assets/fma/Dashboard 10.png)
 
-The above scatter plots show the correlation between track listens and track interest for _Podington Bear, Chris Zabriskie, Jahzzar_ and _Kevin Macleod_. It is interesting to note that there is a strong correlation between listens and interest for _Chris Zabriskie’s_ songs distributed along the trend line.
+The above scatter plots show the correlation between track listens and track interest for _Podington Bear, Chris Zabriskie, Jahzzar_ and _Kevin Macleod_. It is interesting to note that there is a strong correlation between listens and interest for _Chris Zabriskie’s_ songs which are distributed along the trend line.
  
 
 ## Where are the popular Free Music Archive artists geographically located?
 
-I want to know where the popular artists on the FMA are located around the world. For my analysis I used latitude and longitude coordinates to position all the artists on a map. I used a size label to represent track listens in order to differentiate the popular artists. 
+I want to know where the popular artists on the FMA are geographically located. For my analysis I used latitude and longitude coordinates to position all the artists on a map. I used a size label to represent track listens in order to differentiate the popular artists. 
 
 ![Image](docs/assets/fma/Dashboard 11.png)
 
-The above symbol map shows that most of the FMA artists are located in the United States and Western Europe. It should be noted that I can not account for artists having a location listed that is different than their listed longitude and latitude. Also, I cannot account for some artists who have longitude and latitude coordinates that position them in the middle of the ocean. I am not sure how this information is acquired and I decided to not alter this data in the cleaning process.
+The above symbol map shows that the majority of the FMA artists are located in the United States and Western Europe. It should be noted that I can not account for artists having a city, state/province or country location listed that is different than their listed longitude and latitude. Also, I cannot account for some artists who have longitude and latitude coordinates that position them in the middle of the ocean. I am not sure how this information is acquired and I decided to not alter this data in the cleaning process.
 
 ![Image](docs/assets/fma/Dashboard 12.png)
 
@@ -173,15 +173,15 @@ The above symbol map shows FMA artists located in the United States. The majorit
 
 ![Image](docs/assets/fma/Dashboard 13.png)
 
-The above symbol map shows FMA artists located in Western Europe. The map shows us that there is a large FMA artist base in Western Europe, but the most popular FMA artists are located in the United States.
+The above symbol map shows FMA artists located in Western Europe. The map shows us that there is a large FMA artist base in Western Europe, but the majority  FMA artists that I demonstrated to be popular are located in the United States.
 
 ## Conclusion
 
-The Experimental genre has the largest number of tracks on the FMA. Based on track listens and track interest _Podington Bear_ is the most popular artist followed by _Kevin Macleod, Chris Zabriskie_ and _Jahzzar_. The most popular contest album is “Entries” and the “Nameless: Hacker RPG Soundtrack” by _BoxCat Games_ is the most popular soundtrack album. _Chris Zabriskie’s_ album titled “Cylinders” is the most popular album by an individual artist. The most popular song on the FMA by an individual artist is “Night Owl” by _Broke For Free_ with the largest number of listens and interest.
+The Experimental genre has the largest count of tracks on the FMA. Based on track listens and track interest _Podington Bear_ is the most popular artist followed by _Kevin Macleod, Chris Zabriskie_ and _Jahzzar_. The most popular contest album is “Entries” and the “Nameless: Hacker RPG Soundtrack” by _BoxCat Games_ is the most popular soundtrack album. “Cylinders” by _Chris Zabriskie_ is the most popular album by an individual artist. The most popular song on the FMA by an individual artist is “Night Owl” by _Broke For Free_ with the largest count of listens and interest.
 
-Track listens and track interest are good indicators of popularity and are correlated based on my analysis. I found that there is a strong correlation between listens and interest for artists that have under 1 million track listens and interest counts. The most popular artists have a larger number of track interest counts than track listens. The correlation between listens and interest is present for the majority of artists on the FMA because as track listen count increases so does the track interest count.
+Track listens and track interest are good indicators of popularity on the FMA. I found that there is a correlation between track listens and track interest for artists that have under 1 million listens and interest counts. The popular artists have a larger number of track interest counts than track listens. The correlation between listens and interest is present for the majority of artists on the FMA because as track listen counts increase, track interest counts increase.
 
-I found that the majority of the most popular FMA artists are located in the United States along the west and east coasts. Western Europe has a large FMA artist base but the most popular FMA artists are located in the United States which is most likely due to the fact that the FMA was created by an American based radio station.
+I found the majority of the popular FMA artists are located in the United States along the west and east coasts. Western Europe has a large FMA artist base but the popular FMA artists are located in the United States which is most likely due to the fact that the FMA was created by an American based radio station.
 
 
 ## References
