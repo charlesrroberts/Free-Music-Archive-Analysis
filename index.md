@@ -4,7 +4,7 @@ h2 {padding-top: 1em;}
 </style>
 
 ### Exploring Popular Artists, Albums and Songs on FMA
-**By Charles Roberts**
+**Charles Roberts - University of Calgary**
 
 ![Image](docs/assets/fma/headphones.png)
   
