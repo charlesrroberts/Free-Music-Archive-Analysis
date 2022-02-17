@@ -135,13 +135,13 @@ I want to know what are the popular songs on the FMA. For my analysis I measured
 
 ![Image](docs/assets/fma/Dashboard 7.png)
 
-The above dot strip plot shows the songs with the largest number of track listens. The chart shows us that “Happy Birthday” is the most popular song but it should be noted that 23 different artists have this song title. A lot of “Happy Birthday” tracks are featured on the “Entries” contest album which would increase listens. The most popular song measured by track listens is “Night Owl” by _Broke For Free_ with 543,242 track listens.
+The above dot strip plot shows the songs with the largest count of track listens. The chart shows us that “Happy Birthday” is the most popular song but it should be noted that 23 different artists have this song title. A lot of “Happy Birthday” tracks are featured on the “Entries” contest album which would increase listens. The most popular song measured by track listens is “Night Owl” by _Broke For Free_ with 543,242 track listens.
 
 ![Image](docs/assets/fma/Dashboard 8.png)
 
-The above dot strip plot shows the songs with the largest number of track interest. The chart shows us that the most popular song measured by interest is “Night Owl” by _Broke For Free_ with 3,293,557 track interests. 
+The above dot strip plot shows the songs with the largest count of track interest. The chart shows us that the most popular song measured by interest is “Night Owl” by _Broke For Free_ with 3,293,557 track interests. 
 
-Overall, the most popular song on the FMA by an individual artist is “Night Owl” by _Broke For Free_ with the largest number of listens and interest.
+Overall, “Happy Birthday” is the most popular song on the FMA but the most popular song by an individual artist is “Night Owl” by _Broke For Free_ with 3,293,557 track interest counts.
 
 
 ## Is there a correlation between listens and interest between Free Music Archive artists?
