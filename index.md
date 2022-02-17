@@ -10,6 +10,8 @@ By <a href="https://github.com/charlesrroberts">Charles Roberts</a>
   
 The Free Music Archive (FMA) is a website that offers free access to open licensed, original music which is curated by netlabels and thousands of independent musicians around the world. The FMA website claims that it receives tens of millions of visitors every month who download music for personal use. Users share and remix music from FMA in videos, podcasts, films, games, apps, and school projects.
 
+Visit the Free Music Archive<a href="https://freemusicarchive.org/" target="_blank">https://freemusicarchive.org/</a>
+
 The FMA was founded in 2009 by radio station WFMU-FM which is a listener-supported, non-commercial radio station broadcasting in Jersey City, NJ. WFMU is currently the longest running freeform radio station in the United States.
 
 We live in an era of user-generated online content with the rise of YouTube, TikTok and Instagram. I thought it would be interesting to analyze an independent music platform, like FMA, because community-generated or user-generated content has the potential to impact a wider audience than branded content. A survey from 2019 states that “Consumers are 2.4x more likely to say user-generated content is authentic compared to brand-created content” <a href="https://stackla.com/resources/reports/bridging-the-gap-consumer-marketing-perspectives-on-content-in-the-digital-age/" target="_blank">Stackla, 2019</a>. When I visit the FMA I get the feeling that the content is authentic  and trustworthy as opposed to the Spotify or Apple Music brands where they are trying to market or sell something to you. 
