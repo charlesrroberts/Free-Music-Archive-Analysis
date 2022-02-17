@@ -99,7 +99,7 @@ _Podington Bear_ has been on the website the longest, at 2814 days, which may be
 
 ### Poplular Artists on the Free Music Archive
 <a href="https://freemusicarchive.org/music/Podington_Bear" target="_blank">Podington Bear</a><br />
-Chris Zabriskie
+Chris Zabriskie<br />
 <a href="https://freemusicarchive.org/music/Kevin_MacLeod" target="_blank">Kevin Macleod</a><br />
 <a href="https://freemusicarchive.org/music/Jahzzar" target="_blank">Jahzzar</a><br />
 <a href="https://freemusicarchive.org/music/Kai_Engel" target="_blank">Kai Engel</a>
