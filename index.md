@@ -20,7 +20,7 @@ I used Tableau and Tableau Prep for data exploring, analyzing and creating visua
 2. Who are the popular artists on the Free Music Archive?
 3. What are the popular albums on the Free Music Archive?
 4. What are the popular songs on the Free Music Archive?
-5. Is there a correlation between listens and interest between Free Music Archive artists?
+5. Is there a correlation between track listens and track interest on the Free Music Archive?
 6. Where are the popular Free Music Archive artists geographically located?
 
 
@@ -144,7 +144,7 @@ The above dot strip plot shows the songs with the largest count of track interes
 Overall, “Happy Birthday” is the most popular song on the FMA but the most popular song by an individual artist is “Night Owl” by _Broke For Free_ with 3,293,557 track interest counts.
 
 
-## Is there a correlation between listens and interest between Free Music Archive artists?
+##  Is there a correlation between track listens and track interest on the Free Music Archive?
 
 I want to know if there is a correlation between listens and interest between FMA artists. For my analysis I measured the correlation between FMA artists' track listens and track interest counts. It should be noted that for this analysis normalizing the data did not alter the results.
 
