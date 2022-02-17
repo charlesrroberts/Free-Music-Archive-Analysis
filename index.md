@@ -72,20 +72,20 @@ My initial question when looking at the data is who uses the FMA? Initially, I w
 
 ![Image](docs/assets/fma/Dashboard 0.png)
 
-I analyzed genre title and the number of tracks for each genre which shows that Experimental, Electronic and Rock genres have the highest number of tracks on the FMA compared to the other music genres. These results suggest that creators of Experimental music are predominant users of the FMA.   
+I analyzed genre title and the number of tracks for each genre which shows that Experimental, Electronic and Rock genres have the highest number of tracks on the FMA compared to the other music genres. These results suggest that the Experimental music genre is predominant on the FMA.   
 
 
 ## Who are the popular artists on the Free Music Archive?
 
-I want to know the most popular artist on FMA, but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured an artist’s popularity on the FMA by listens and interest counts of their tracks.
+I want to know who is the most popular artist on FMA, but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured popularity on the FMA by listens and interest counts of tracks and albums.
 
 ![Image](docs/assets/fma/Dashboard 1.png)
 
-The above bar chart shows the artists with the largest number of track listens. The chart shows us that _Podington Bear_ has the largest number of track listens with a count 7,287,253.
+The above bar chart shows the artists with the largest coiunt of track listens. The chart shows that _Podington Bear_ has the largest count of track listens with a count 7,287,253.
 
 ![Image](docs/assets/fma/Dashboard 2.png)
 
-The above bar chart shows the artists with the largest number of interest per track. The chart shows us that _Podington Bear_ has the largest number of track interest with a count 9,922,230.
+The above bar chart shows the artists with the largest count of track interest. The chart shows that _Podington Bear_ has the largest count of track interest with a count 9,922,230.
 
 Counting the number of listens and interest is a good indicator of the popular artists on FMA but I also wanted to measure how long they have been active on the website. If an artist has been active on the FMA for a long period of time they would have more time to gain listens and interest.
 
