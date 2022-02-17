@@ -68,7 +68,7 @@ Artist Duration Calculated Field
 
 ## What genres of music are available on the Free Music Archive?
 
-My initial question when looking at the data is who uses the FMA? Initially, I wanted to find the most popular genres on the FMA but I found that many artists categorize themselves by multiple genres for their music. It was difficult to analyze the top genre based on artist “listens” or “interest” data because of the overlap of multiple genres for each artist. I felt it was best to look at the number of tracks associated with each genre.
+My initial question when looking at the data is who uses the FMA? Initially, I wanted to find the popular genres on the FMA but I found that many artists categorize themselves by multiple genres for their music. It was difficult to analyze the top genre based on artist “listens” or “interest” data because of the overlap of multiple genres for each artist. I felt it was best to look at the number of tracks associated with each genre.
 
 ![Image](docs/assets/fma/Dashboard 0.png)
 
@@ -77,7 +77,7 @@ I analyzed genre title and the number of tracks for each genre which shows that 
 
 ## Who are the popular artists on the Free Music Archive?
 
-I want to know who is the most popular artist on FMA, but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured popularity on the FMA by listens and interest counts of tracks and albums.
+I want to know who are the popular artists on FMA, but this can be a tricky question because there are a lot of ways to measure whether an artist is popular or successful. For my analysis I measured popularity on the FMA by listens and interest counts of tracks and albums.
 
 ![Image](docs/assets/fma/Dashboard 1.png)
 
@@ -115,7 +115,7 @@ I thought it would be good to start off by looking at what types of albums are o
 
 The above bar chart shows the types of albums ranked by the count of album listens. The chart shows that the album type _Album_ is quite predominant with the most album listens over the other types.
 
-For my research question, I want to know the most popular album on the FMA. For my analysis, I compared the album listens count for all the albums on the FMA.
+I want to know what are the popular albums on the FMA. For my analysis, I compared the album listens count for all the albums on the FMA.
 
 ![Image](docs/assets/fma/Dashboard 5.png)
 
@@ -131,7 +131,7 @@ The above dot strip plot shows that _Podington Bear_ is ranked the highest with 
 
 ## What are the popular songs on the Free Music Archive?
 
-I want to know the most popular song on the FMA. For my analysis I measured a song's popularity on the FMA by comparing track listens and interest counts for each track.
+I want to know what are the popular songs on the FMA. For my analysis I measured a song's popularity on the FMA by comparing track listens and interest counts for each track.
 
 ![Image](docs/assets/fma/Dashboard 7.png)
 
@@ -161,7 +161,7 @@ The above scatter plots show the correlation between track listens and track int
 
 ## Where are the popular Free Music Archive artists geographically located?
 
-I want to know where the most popular artists on the FMA are located around the world. For my analysis I used latitude and longitude coordinates to position all the artists on a map. I used a size label to represent track listens in order to differentiate the popular artists. 
+I want to know where the popular artists on the FMA are located around the world. For my analysis I used latitude and longitude coordinates to position all the artists on a map. I used a size label to represent track listens in order to differentiate the popular artists. 
 
 ![Image](docs/assets/fma/Dashboard 11.png)
 
