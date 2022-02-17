@@ -119,9 +119,9 @@ I want to know what are the popular albums on the FMA. For my analysis, I compar
 
 ![Image](docs/assets/fma/Dashboard 5.png)
 
-The above bar chart shows the albums with the largest number of album listens. The chart shows us that the album “Entries” has the largest number of album listens with a count 495,429,777. The “microSong Entries” album is the second most listened to album with 100,934,450 listens followed by “Bonus Beat Blast 2011” with 58,985,533 listens. 
+The above bar chart shows the albums with the largest count of album listens. The chart shows us that the album “Entries” has the largest count of album listens with a count 495,429,777. The “microSong Entries” album is the second most listened to album with 100,934,450 listens followed by “Bonus Beat Blast 2011” with 58,985,533 listens. 
 
-It should be noted that the “Entries” and “microSong Entries” are compiled contest albums where artists submit tracks that get judged for prizes. These contest albums are promoted on the FMA thus drawing a lot of attention and interest which may increase the album listens count. “Entries” features 108 artists with 139 tracks and “microSong Entries” features 115 artists with 310 tracks. The fact that these contest albums are promoted on the FMA and have many artists and tracks are good indicators as to why the album listens counts are large. The “Bonus Beat Blast 2011” album features 31 artists with 73 tracks and may possibly be the most popular album that does not have over 100 artists and is not part of any FMA promotions or contests.
+It should be noted that the “Entries” and “microSong Entries” are compiled contest albums where artists submit tracks that get judged for prizes. These contest albums are promoted on the FMA thus drawing a lot of attention and interest which may increase the album listens count. “Entries” features 108 artists with 139 tracks and “microSong Entries” features 115 artists with 310 tracks. The fact that these contest albums are promoted on the FMA and have many artists and tracks are good indicators as to why the album listen counts are large. The “Bonus Beat Blast 2011” album features 31 artists with 73 tracks and may possibly be the most popular album that does not have over 100 artists and is not part of any FMA promotions or contests.
 
 Expanding on my analysis of the most popular album on the FMA, I looked at albums released by individual artists. For my analysis I measured each album's popularity on the FMA by comparing the album listens count for each artist.
 
@@ -131,7 +131,7 @@ The above dot strip plot shows that _Podington Bear_ is ranked the highest with 
 
 ## What are the popular songs on the Free Music Archive?
 
-I want to know what are the popular songs on the FMA. For my analysis I measured a song's popularity on the FMA by comparing track listens and interest counts for each track.
+I want to know what are the popular songs on the FMA. For my analysis I measured a song's popularity on the FMA by comparing track listens and interest counts for each song.
 
 ![Image](docs/assets/fma/Dashboard 7.png)
 
