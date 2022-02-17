@@ -4,7 +4,7 @@ h2 {padding-top: 1em;}
 </style>
 
 ### Exploring Popular Artists, Albums and Songs on FMA
-By <a href="https://github.com/charlesrroberts" target="_blank">Charles Roberts</a> 
+By <a href="https://github.com/charlesrroberts">Charles Roberts</a> 
 
 ![Image](docs/assets/fma/headphones.png)
   
