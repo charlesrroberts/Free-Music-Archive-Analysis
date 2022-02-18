@@ -30,7 +30,7 @@ I used Tableau and Tableau Prep for data exploring, analyzing and creating visua
 
 Data Source: <a href="https://github.com/mdeff/fma" target="_blank">https://github.com/mdeff/fma</a>
 
-The FMA dataset provides data on 917 GiB of Creative Commons-licensed audio files from 106,574 tracks from 16,341 artists and 14,854 albums, arranged in a hierarchical taxonomy of 161 genres. The dataset was published in 2017 and contains data from 2009 to 2017.  
+The FMA dataset provides data on 917 GiB of Creative Commons-licensed audio files from 106,574 tracks from 16,341 artists and 14,854 albums, arranged in a hierarchical taxonomy of 161 genres. The dataset was published by the International Society for Music Information Retrieval Conference (ISMIR) in 2017 and contains data from 2009 to 2017.  
 
 There are 9 datasets included in the FMA GitHub repository but for my purposes I am focusing on select metadata from 2 data tables on the following fields:
 
